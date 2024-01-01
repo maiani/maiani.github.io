@@ -1,0 +1,50 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: NORDITA
+    url: "https://www.example.com"
+    location: Stockholm
+    # overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+  positions:
+  - designation: WINQ Postdoctoral fellow
+    start: Jan 2024
+#      end: Dec 2023
+    # responsibilities:
+    # - Design and develop XYZ tool for ABC task
+    # - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
+    # - Lead backend team..
+    
+- company:
+    name: New York University
+    url: "https://www.nyu.edu"
+    location: New York City
+    # company overview
+    # overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+  positions:
+  - designation: Postdoctoral associate
+    start: Aug 2023
+    end: Dec 2023
+    # responsibilities:
+    # - Design and develop XYZ tool for ABC task
+
+- company:
+    name: Universty of Copenhagen.
+    url: "https://qdev.nbi.ku.dk/"
+    location: Copenhagen
+    # overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+  positions:
+  - designation: Postdoctoral associate
+    start: Apr 2023
+    end: Jul 2023
+    # responsibilities:
+    # - Implement and test xyz feature for abc tool.
