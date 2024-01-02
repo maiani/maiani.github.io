@@ -1,24 +1,3 @@
-# section information
-section:
-  name: Publications
-  id: publications
-  enable: true
-  weight: 6
-  showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
-
-# filter buttons
-buttons:
-- name: All
-  filter: "all"
-- name: "Hybrid devices"
-  filter: "supersemi"
-- name: "CQED"
-  filter: "cqed"
-- name: "Vortex physics"
-  filter: "vortex"
-
 publications:
 - authors:
   - name: Maiani, Andrea
@@ -27,7 +6,7 @@ publications:
   - name: Schrade, Constantin
   - name: "Vaitiek\u0117nas, Saulius"
   - name: "Souto, Rub\xE9n Seoane"
-  categories: [supersemi]
+  categories: []
   paper:
     summary: ''
     url: http://doi.org/10.1103/physrevb.107.245415
@@ -64,7 +43,7 @@ publications:
   - name: Andrea Maiani
   - name: Kevin Van Hoogdalem
   - name: Karsten Flensberg
-  categories: [supersemi]
+  categories: []
   paper:
     summary: ''
     url: http://doi.org/10.1088/1361-6641/acbb9a
@@ -79,7 +58,7 @@ publications:
   - name: Andrea Maiani
   - name: Max Geier
   - name: Karsten Flensberg
-  categories: [supersemi]
+  categories: []
   paper:
     summary: ''
     url: http://doi.org/10.1103/physrevb.106.104516
@@ -94,7 +73,7 @@ publications:
   - name: Andrea Maiani
   - name: Andrea Benfenati
   - name: Egor Babaev
-  categories: [vortex]
+  categories: []
   paper:
     summary: ''
     url: http://doi.org/10.1103/physrevb.105.224507
@@ -114,7 +93,7 @@ publications:
   - name: Alfredo Levy Yeyati
   - name: Elsa Prada
   - name: Rub{\'{e}}n Seoane Souto
-  categories: [supersemi]
+  categories: []
   paper:
     summary: ''
     url: http://doi.org/10.1038/s41535-022-00489-9
@@ -129,7 +108,7 @@ publications:
   - name: Andrea Maiani
   - name: Morten Kjaergaard
   - name: Constantin Schrade
-  categories: [cqed]
+  categories: []
   paper:
     summary: ''
     url: http://doi.org/10.1103/prxquantum.3.030329
@@ -144,7 +123,7 @@ publications:
   - name: R. Seoane Souto
   - name: M. Leijnse
   - name: K. Flensberg
-  categories: [supersemi]
+  categories: []
   paper:
     summary: ''
     url: http://doi.org/10.1103/physrevb.103.104508
@@ -160,7 +139,7 @@ publications:
   - name: Andrea Maiani
   - name: Filipp N. Rybakov
   - name: Egor Babaev
-  categories: [vortex]
+  categories: []
   paper:
     summary: ''
     url: http://doi.org/10.1103/physrevb.101.220505

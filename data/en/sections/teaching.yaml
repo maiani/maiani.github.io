@@ -1,0 +1,25 @@
+# section information
+section:
+  name: Teaching
+  id: publications
+  enable: true
+  weight: 7
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# your publications
+publications:
+- title: TA Advanced Quantum Mechanics
+  publishedIn:
+    name: Copenhagen University
+    date: 2020
+- title: TA Condensed Matter Physics
+  publishedIn:
+    name: Copenhagen University
+    date: 2021
+- title: TA Quantum Nanoelectronics
+  publishedIn:
+    name: Copenhagen University
+    date: 2021
+

@@ -2,6 +2,7 @@
 
 
 # TODO
-- Publications
-- Skills
-- Projects
+- More compact publications
+- Improve research areas 
+- Add PhD thesis
+- Add talks
