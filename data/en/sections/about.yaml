@@ -48,6 +48,11 @@ socialLinks:
   icon: "ai ai-arxiv"
   url: "https://arxiv.org/search/?searchtype=author&query=Maiani%2C+A"
 
+- name: Google Scholar
+  icon: "ai ai-google-scholar"
+  url: "https://scholar.google.com/citations?user=DcMhFnYAAAAJ"
+
+
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
