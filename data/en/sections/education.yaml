@@ -85,12 +85,12 @@ degrees:
   # - Pellentesque ut fringilla magna.
   
   #######
-- name: Liceo Scientifico
-  icon: fa-school
-  timeframe: 2009-2014
-  institution:
-    name: Liceo Scientifico Copernico
-  grade: 
-     scale: Final grade
-     achieved: 100
-     outOf: 100
+# - name: Liceo Scientifico
+#   icon: fa-school
+#   timeframe: 2009-2014
+#   institution:
+#     name: Liceo Scientifico Copernico
+#   grade: 
+#      scale: Final grade
+#      achieved: 100
+#      outOf: 100

@@ -16,7 +16,13 @@
       </div>
       <div class="authors">
         {{ range $index,$author:= .authors }}
-          <span class="mr-2"><a class="" href="{{.url}}">{{ .name }}</a></span>
+          <span class="mr-2">
+            {{ if $author.url }}
+              <a class="" href="{{ $author.url }}">{{ $author.name }}</a>
+            {{ else }}
+              {{ $author.name }}
+            {{ end }}
+          </span>
         {{ end }}
       </div>
     </div>
