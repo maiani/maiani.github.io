@@ -21,12 +21,12 @@ buttons:
 
 publications:
 - authors:
-  - name: Maiani, Andrea
-  - name: Flensberg, Karsten
-  - name: Leijnse, Martin
-  - name: Schrade, Constantin
-  - name: "Vaitiek\u0117nas, Saulius"
-  - name: "Souto, Rub\xE9n Seoane"
+  - name: Andrea Maiani
+  - name: Karsten Flensberg
+  - name: Martin Leijnse
+  - name: Constantin Schrade
+  - name: "Saulius Vaitiekėnas"
+  - name: "Rubén Seoane Souto"
   categories: [supersemi]
   paper:
     summary: ''
@@ -48,7 +48,7 @@ publications:
   - name: C. Schrade
   - name: A. Gyenis
   - name: C. M. Marcus
-  - name: S. Vaitiek{\.{e}}nas
+  - name: "S. Vaitiek\u0117nas"
   categories: []
   paper:
     summary: ''
@@ -113,7 +113,7 @@ publications:
   - name: Yuval Oreg
   - name: Alfredo Levy Yeyati
   - name: Elsa Prada
-  - name: Rub{\'{e}}n Seoane Souto
+  - name: "Rubén Seoane Souto"
   categories: [supersemi]
   paper:
     summary: ''
@@ -135,7 +135,7 @@ publications:
     url: http://doi.org/10.1103/prxquantum.3.030329
   publishedIn:
     date: August 2022
-    name: '{PRX} Quantum'
+    name: 'PRX Quantum'
     url: http://doi.org/10.1103/prxquantum.3.030329
   tags: []
   title: Entangling Transmons with Low-Frequency Protected Superconducting Qubits
@@ -153,7 +153,7 @@ publications:
     name: Physical Review B
     url: http://doi.org/10.1103/physrevb.103.104508
   tags: []
-  title: Topological superconductivity in semiconductor{\textendash}superconductor{\textendash}magnetic-insulator
+  title: Topological superconductivity in semiconductor-superconductor-magnetic-insulator
     heterostructures
 - authors:
   - name: Andrea Benfenati
