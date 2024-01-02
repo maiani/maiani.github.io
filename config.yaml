@@ -139,7 +139,7 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: false
+      enabled: true
       services:
         google:
           id: G-D55GSS6WZJ
@@ -217,17 +217,6 @@ params:
               display: false
 
     # Enable to use custom syntax highlight
-    # Please note, Hugo comes with it's own html based syntax highlighter.
-    # Your code block will still be syntax highlighted by hugo.
-    # For more details: https://gohugo.io/content-management/syntax-highlighting/
-    # To disable Hugo's builtin syntax highlight,
-    # see: https://gohugo.io/getting-started/configuration-markup#highlight
-    # ```
-    # # config.yaml
-    # markup:
-    #   # this disables hugo's syntax highlighting.
-    #   codeFences: false
-    # ```
     syntaxHighlight:
       enable: true
       services:

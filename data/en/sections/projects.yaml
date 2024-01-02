@@ -1,0 +1,50 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+# - name: Professional
+#   filter: "professional"
+- name: Academic
+  filter: "academic"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: mepgl
+  # logo:
+  role: Developer
+  timeline: "March 2018 - Present"
+  repo: "https://github.com/maiani/mepgl"
+  # url: ""
+  summary: "Implementation of gauged string method for the calculation of minimum energy path of vortex nucleation in superconductors within Ginzburg-Landau theory."
+  tags: ["academic", "superconductors"]
+
+- name: pyUsadel
+  # logo:
+  role: Developer
+  timeline: "March 2021 - Present"
+  repo: "https://github.com/maiani/pyusadel"
+  # url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: "Usadel equation solver for mesoscopic superconductor-ferromagnet heterostructures."
+  tags: ["academic", "superconductors"]
+
+
+- name: "Fantastic PhD Thesis Template"
+  # logo: 
+  role: Developer
+  timeline: "September 2022 - September 2023"
+  repo: "https://github.com/maiani/fantastic_template"
+  # url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: "Free modern PhD thesis template."
+  tags: ["academic", "hobby"]
