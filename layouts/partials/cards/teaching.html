@@ -1,0 +1,30 @@
+<div
+  class="col-12 p-2 tch-filtr-item"
+  >
+  <div class="card mt-3">
+    <div class="card-header">
+      <h5 class="card-title mb-0">{{ .title }}</h5>
+      <div class="sub-title">
+        <span>{{ .place }}</span>
+        <span class="ml-2">{{ .date }}</span>
+      </div>
+    </div>
+    <!-- <div class="card-body">
+      <p>{{ .summary | markdownify }}</p>
+    </div> -->
+    <div class="card-footer">
+      <!-- <div class="tags">
+        {{ range $index,$tag:= .tags }}
+            <span class="btn badge btn-info ml-1 p-2">
+              {{ $tag }}
+            </span>
+        {{ end }}
+      </div> -->
+      {{ if .url }}
+      <div class="details-btn">
+        <a class="btn btn-outline-info ml-1 pl-2 mb-2" href="{{ .url }}" target="_blank" rel="noopener" role="button">{{ i18n "project_details"}}</a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>

@@ -5,6 +5,6 @@
 ![Last Commit](https://img.shields.io/github/last-commit/maiani/maiani.github.io) 
 
 # TODO
-- Add PhD thesis
+- Complete teachings sections
 - Add talks
-- change pic 
+- Change pic 
