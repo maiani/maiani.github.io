@@ -30,7 +30,7 @@ publications:
   categories: [supersemi]
   paper:
     summary: ''
-    url: http://doi.org/10.1103/physrevb.107.245415
+    url: ''
   publishedIn:
     date: June 2023
     name: Physical Review B
@@ -52,7 +52,7 @@ publications:
   categories: []
   paper:
     summary: ''
-    url: http://doi.org/10.1103/physrevb.107.l081301
+    url: ''
   publishedIn:
     date: February 2023
     name: Physical Review B
@@ -67,7 +67,7 @@ publications:
   categories: [supersemi]
   paper:
     summary: ''
-    url: http://doi.org/10.1088/1361-6641/acbb9a
+    url: ''
   publishedIn:
     date: February 2023
     name: Semiconductor Science and Technology
@@ -82,11 +82,11 @@ publications:
   categories: [supersemi]
   paper:
     summary: ''
-    url: http://doi.org/10.1103/physrevb.106.104516
+    url: ''
   publishedIn:
     date: September 2022
     name: Physical Review B
-    url: http://doi.org/10.1103/physrevb.106.104516
+    url: ''
   tags: []
   title: Conductance matrix symmetries of multiterminal semiconductor-superconductor
     devices
@@ -97,7 +97,7 @@ publications:
   categories: [vortex]
   paper:
     summary: ''
-    url: http://doi.org/10.1103/physrevb.105.224507
+    url: ''
   publishedIn:
     date: June 2022
     name: Physical Review B
@@ -117,7 +117,7 @@ publications:
   categories: [supersemi]
   paper:
     summary: ''
-    url: http://doi.org/10.1038/s41535-022-00489-9
+    url: ''
   publishedIn:
     date: August 2022
     name: npj Quantum Materials
@@ -132,7 +132,7 @@ publications:
   categories: [cqed]
   paper:
     summary: ''
-    url: http://doi.org/10.1103/prxquantum.3.030329
+    url: ''
   publishedIn:
     date: August 2022
     name: 'PRX Quantum'
@@ -147,7 +147,7 @@ publications:
   categories: [supersemi]
   paper:
     summary: ''
-    url: http://doi.org/10.1103/physrevb.103.104508
+    url: ''
   publishedIn:
     date: March 2021
     name: Physical Review B
@@ -163,7 +163,7 @@ publications:
   categories: [vortex]
   paper:
     summary: ''
-    url: http://doi.org/10.1103/physrevb.101.220505
+    url: ''
   publishedIn:
     date: June 2020
     name: Physical Review B
@@ -171,3 +171,13 @@ publications:
   tags: []
   title: 'Vortex nucleation barrier in superconductors beyond the Bean-Livingston
     approximation: A numerical approach for the sphaleron problem in a gauge theory'
+
+- title: "Modeling of Hybrid Nanoelectronic Devices for Quantum Information Processing" 
+  authors:
+  - name: Andrea Maiani
+  paper:
+    summary: "Phd Thesis"
+    url: "files/PhD_thesis.pdf"
+  publishedIn:
+    date: June 2020
+    name: Niels Bohr Institute, Faculty of Science, University of Copenhagen
