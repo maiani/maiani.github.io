@@ -37,9 +37,11 @@
             </span>
         {{ end }}
       </div>
-      <!-- <div class="details-btn">
+      {{ if .paper.url }}
+      <div class="details-btn">
         <a class="btn btn-outline-info ml-1 pl-2 mb-2" href="{{ .paper.url }}" target="_blank" rel="noopener" role="button">{{ i18n "project_details"}}</a>
-      </div> -->
+      </div>
+      {{ end }}
     </div>
   </div>
 </div>
