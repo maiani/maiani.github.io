@@ -1,7 +1,10 @@
 name: HTML Proofer
 
-# run when a event happen in a PR
-on: [pull_request]
+on:
+  push:
+    branches:
+      - '*'
+  pull_request:
 
 jobs:
   proof-html:
@@ -25,7 +28,7 @@ jobs:
     - name: Setup Node
       uses: actions/setup-node@v4
       with:
-        node-version: 18
+        node-version: 20
 
     - name: Install node modules
       run: |
@@ -40,5 +43,4 @@ jobs:
       with:
         directory: ./public
         enforce_https: false
-        url_ignore: "#"
-        url_ignore_re: ^https://www.pexels.com
+
