@@ -1,7 +1,7 @@
 baseURL: https://maiani.github.io
 
 languageCode: en-us
-title: "Andrea Maiani"
+title: "Andrea Maiani, PhD"
 
 # Use Hugo modules to add theme
 module:
@@ -85,7 +85,8 @@ params:
 
     # Enable and configure blog posts
     blog:
-      enable: false
+      enable: true
+      title: "Research blog"
       # Share post on different social media
       shareButtons:
         facebook: true
@@ -100,8 +101,9 @@ params:
         # mastodon: true
 
     # Enable & configure "Notes" features
-    # notes:
-    #   enable: false
+    notes:
+      enable: false
+      title: "Research notes"
 
     # Enable comment feature. There, should be only one of them.
     # comment:
@@ -248,7 +250,7 @@ params:
     template: footer.html
     # Show/hide navigation in the footer. Default is "true".
     navigation:
-      enable: false
+      enable: true
       # show custom menus in the footer
       customMenus: true
     # Show/hide "Contact Me" section in the footer. Default is "true".
