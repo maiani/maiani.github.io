@@ -16,7 +16,7 @@ skills:
   summary: "My main interest is studying nanoelectronic devices composed of different materials, like superconductors, semiconductors, and magnetic materials. These heterostructures allow achieving properties not available in nature, like topological excitations."
   # url: 
 
-- name: "Superconducting quantum devices"
+- name: "Superconducting qubits"
   # logo: 
   summary: "I study superconducting circuits to implement quantum information processing. In particular, I study heterogeneous quantum architecture that mixes different types of superconducting qubits to leverage their strengths."
   # url: 

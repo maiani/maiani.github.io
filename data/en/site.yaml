@@ -5,7 +5,7 @@ copyright: "© 2023-2024 Copyright."
 # disclaimer: "This theme is under MIT license."
 
 # Meta description for your site.  This will help the search engines to find your site.
-description: "Portfolio and personal blog of Andrea Maiani."
+description: "Portfolio and personal blog of Andrea Maiani"
 
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
@@ -20,8 +20,8 @@ description: "Portfolio and personal blog of Andrea Maiani."
 
 # Specify OpenGraph Headers
 openGraph:
-  title: "Andrea Maiani"
+  title: "Andrea Maiani, PhD"
   type: "website"
-  description: "Andrea Maiani."
+  description: "Andrea Maiani Research Blog"
   image: "images/author/andrea.jpg"
   url: "https://maiani.github.io"

@@ -1,17 +1,17 @@
 # some information about you
 name: "Andrea Maiani"
-nickname: "Andrea"
+nickname: " " # "Andrea"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hi, I am"
+greeting: "" #   "Hi, I am"
 image: "images/author/andrea.jpg"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  email: "andrea.maiani@outlook.com"
-  phone: "+15168417939"
+  email: "andrea.maiani@su.se"
+#  phone: "+15168417939"
   github: maiani
   linkedin: andrea-maiani
 
 # some summary about what you do
-summary:
-  - I am a Physicist.
-  - I do quantum nanoelectronics.
+# summary:
+#   - I am a Theoretical Physicist.
+#   - I do quantum nanoelectronics.

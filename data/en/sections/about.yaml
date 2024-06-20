@@ -4,24 +4,27 @@ section:
   id: about
   enable: true
   weight: 1
-  showOnNavbar: true
+  showOnNavbar: false
   template: sections/about.html
 
 # your designation
-designation: Postdocoral associate
+designation: WINQ Postdoctoral fellow
 # your company information
 company:
-  name: CQIP, New York University
-  url: "https://www.nyu.edu"
+  name: Nordic Institute of Theoretical Physics
+  url: "https://www.nordita.org"
 
 # a summary about you
-summary: 'I am a postdoctoral associate at NYU Center for Quantum Information Physics.  My area of research is at the boundary of condensed matter physics and quantum information. I specialized in quantum nanoelectronics and mesoscopic superconductivity.'
+summary: 'My area of research is at the boundary of condensed matter physics and quantum information.
+          In particular I specialized in quantum nanoelectronic and superconducting heterostructures, 
+          where superconductive material are combined with semiconductors and magnets to generate and 
+          control new behavrios not found in nature.'
 
 # your social links
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "andrea.maiani@outlook.com"
+  url: "andrea.maiani@su.se"
 
 - name: Github
   icon: "fab fa-github"

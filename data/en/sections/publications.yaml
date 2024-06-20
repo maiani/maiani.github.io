@@ -20,6 +20,46 @@ buttons:
   filter: "vortex"
 
 publications:
+
+- title: "Gatemonium: A Voltage-Tunable Fluxonium"
+  authors:
+  - name: William M Strickland
+  - name: Bassel Heiba Elfeky
+  - name: Lukas Baker
+  - name: Andrea Maiani
+  - name: Jaewoo Lee
+  - name: Ido Levy
+  - name: Jacob Issokson
+  - name: Andrei Vrajitoarea
+  - name: Javad Shabani
+  categories: [cqed]
+  paper:
+    summary: ''
+    url: ''
+  publishedIn:
+    date: 13 June 2024
+    name: ArXiv
+    url: https://arxiv.org/abs/2406.09002
+
+
+- title: Percolative supercurrent in superconductor-ferromagnetic insulator bilayers
+  authors:
+  - name: A. Maiani
+  - name: A. C. C. Drachmann
+  - name: L. Galletti
+  - name: C. Schrade
+  - name: Y. Liu
+  - name: R. Seoane Souto
+  - name: S. Vaitiekėnas
+  categories: [supersemi]
+  paper:
+    summary: ''
+    url: ''
+  publishedIn:
+    date: 26 April 2024
+    name: ArXiv
+    url: https://arxiv.org/abs/2404.17320
+
 - authors:
   - name: Andrea Maiani
   - name: Karsten Flensberg
@@ -38,6 +78,17 @@ publications:
   tags: []
   title: Nonsinusoidal current-phase relations in semiconductor-superconductor-ferromagnetic
     insulator devices
+
+- title: "Modeling of Hybrid Nanoelectronic Devices for Quantum Information Processing" 
+  authors:
+  - name: Andrea Maiani
+  paper:
+    summary: "Phd Thesis"
+    url: "files/PhD_thesis.pdf"
+  publishedIn:
+    date: June 2023
+    name: Niels Bohr Institute, Faculty of Science, University of Copenhagen
+
 - authors:
   - name: D. Razmadze
   - name: R. Seoane Souto
@@ -49,7 +100,7 @@ publications:
   - name: A. Gyenis
   - name: C. M. Marcus
   - name: "S. Vaitiek\u0117nas"
-  categories: []
+  categories: [supersemi]
   paper:
     summary: ''
     url: ''
@@ -59,6 +110,7 @@ publications:
     url: http://doi.org/10.1103/physrevb.107.l081301
   tags: []
   title: Supercurrent reversal in ferromagnetic hybrid nanowire Josephson junctions
+
 - authors:
   - name: Waldemar Svejstrup
   - name: Andrea Maiani
@@ -171,13 +223,3 @@ publications:
   tags: []
   title: 'Vortex nucleation barrier in superconductors beyond the Bean-Livingston
     approximation: A numerical approach for the sphaleron problem in a gauge theory'
-
-- title: "Modeling of Hybrid Nanoelectronic Devices for Quantum Information Processing" 
-  authors:
-  - name: Andrea Maiani
-  paper:
-    summary: "Phd Thesis"
-    url: "files/PhD_thesis.pdf"
-  publishedIn:
-    date: June 2020
-    name: Niels Bohr Institute, Faculty of Science, University of Copenhagen
