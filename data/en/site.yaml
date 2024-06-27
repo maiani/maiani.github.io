@@ -22,6 +22,6 @@ description: "Portfolio and personal blog of Andrea Maiani"
 openGraph:
   title: "Andrea Maiani, PhD"
   type: "website"
-  description: "Andrea Maiani's Research Blog"
+  description: "Andrea Maiani Research Blog"
   image: "images/author/andrea.jpg"
-  url: "https://maiani.github.io"
+  url: "https://andreamaiani.com"
