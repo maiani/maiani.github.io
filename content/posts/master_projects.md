@@ -46,7 +46,8 @@ In this project, you will try to answer these questions. In particular, we will 
 
 **What you can expect from this project:**
 
-- Learn the microscopic theory of superconductivity (BdG methods, Exact diagonalization, Kernel Polynomial Methods) and play with Abrikosov vortex physics.
+- Develop a thorough understanding of the Bogoliubov-de Gennes (BdG) methods, exact diagonalization techniques, and the Kernel Polynomial Method.
+- Study Abrikosov vortex physics in the context of altermagnetic superconductors
 - Learn how to write efficient numerical software, and the basics of scientific software engineering.
 - Get hands-on experience with High Performance Computing (HPC).
 - This project is part of an international collaboration on altermagnetic superconductors.
@@ -55,3 +56,25 @@ In this project, you will try to answer these questions. In particular, we will 
 
 1. Mazin, *Altermagnetism—A New Punch Line of Fundamental Magnetism* [https://doi.org/10.1103/PhysRevX.12.040002](https://journals.aps.org/prx/edannounce/10.1103/PhysRevX.12.040002)
 2. Ouassou et al, *dc Josephson Effect in Altermagnets*, Phys. Rev. Lett. **131**, 076003 [https://arxiv.org/abs/2301.03603](https://arxiv.org/abs/2301.03603)
+
+
+### 3. Numerical solution of the Usadel equations for diffusive superconductors.
+
+The Usadel equations are a powerful model for describing diffusive superconductors. These equations are particularly efficient for modeling inhomogeneous systems out of equilibrium, including effects of magnetism and spin-orbit coupling, while remaining computationally affordable. This makes them an ideal framework for studying mesoscopic superconducting devices.
+
+In a previous project, I developed pyUsadel, a Python package designed to solve 2D problems in equilibrium settings. For future work, we aim to rewrite the package within a finite-element framework. This will allow us to handle more complex geometries and extend the tool's capabilities to support multicomponent superconductors and non-equilibrium setups. An improved tool could significantly benefit the development of superconducting quantum devices.
+
+This project not only aims to advance the computational tools available for studying superconducting systems but also provides a comprehensive learning experience in computational physics, software engineering, and high-performance computing.
+
+**What you can expect from this project:**
+
+- Develop a deep understanding of the Usadel equations and their significance in the study of superconductors.
+- Learn and apply Finite Element Modeling techniques to solve complex differential equations.
+- Gain experience in scientific computing and software development, focusing on efficiency and extensibility.
+- Enhance your programming skills, particularly in Python, and learn how to develop and maintain scientific software packages.
+- Experience the workflow of HPC environments, including job scheduling, parallel computing, and performance optimization.
+
+**References:**
+
+1. Maiani, *pyUsadel* [Github Repo](https://github.com/maiani/pyusadel)
+2. Maiani et al, *Percolative supercurrent in superconductor-ferromagnetic insulator bilayers*, arXiv:2404.17320 [https://arxiv.org/abs/2404.17320](https://arxiv.org/abs/2404.17320)
