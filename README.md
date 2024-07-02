@@ -6,4 +6,3 @@
 
 # TODO
 - Add talks
-- Change pic 
