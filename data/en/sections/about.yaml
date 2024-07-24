@@ -15,10 +15,9 @@ company:
   url: "https://www.nordita.org"
 
 # a summary about you
-summary: 'My area of research is at the boundary of condensed matter physics and quantum information.
-          In particular I specialized in quantum nanoelectronic and superconducting heterostructures, 
-          where superconductive material are combined with semiconductors and magnets to generate and 
-          control new behavrios not found in nature.'
+summary: 'My area of research is at the boundary of condensed matter physics and quantum information. 
+          I specialized in quantum nanoelectronic and superconducting heterostructures, where superconductive materials 
+          are combined with semiconductors and magnets to generate and control new behaviors not found in nature.'
 
 # your social links
 socialLinks:
