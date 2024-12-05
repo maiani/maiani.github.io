@@ -11,12 +11,13 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: NORDITA
-    url: "https://www.example.com"
+    name: NORDITA | Wallenberg Initiative on Networks and Quantum Information
+    url: "https://www.nordita.org"
     location: Stockholm
+    logo: /images/site/nordita_logo.svg
     # overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
   positions:
-  - designation: WINQ Postdoctoral fellow
+  - designation: Postdoctoral fellow
     start: Jan 2024
 #      end: Dec 2023
     # responsibilities:
@@ -25,9 +26,10 @@ experiences:
     # - Lead backend team..
     
 - company:
-    name: New York University
+    name: New York University | Center for Quantum Information Phsyics
     url: "https://www.nyu.edu"
-    location: New York City
+    location: New York City 
+    logo: /images/site/nyu_logo.svg
     # company overview
     # overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
   positions:
@@ -38,9 +40,10 @@ experiences:
     # - Design and develop XYZ tool for ABC task
 
 - company:
-    name: Universty of Copenhagen.
+    name: Universty of Copenhagen | Center for Quantum Devices
     url: "https://qdev.nbi.ku.dk/"
-    location: Copenhagen
+    location: Copenhagen    
+    logo: /images/site/ku_logo.svg
     # overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
   positions:
   - designation: Postdoctoral associate
