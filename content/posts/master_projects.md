@@ -1,6 +1,6 @@
 ---
 title: "Master thesis projects"
-date: 2024-06-16T08:30:00
+date: 2024-12-05T08:30:00
 description: Master thesis projects
 menu:
   sidebar:
@@ -36,35 +36,47 @@ The successful execution of this project could lead to significant advancements 
 1. *Scattering Matrix Approach to Non-Stationary Quantum Transport*, Michael V Moskalets
 2. Pankratova, Natalia, et al. "Multiterminal josephson effect." *Physical Review X* 10 031051 (2020)
 
-### 2. Vortices in Altermagnetic Superconductors
+### 2. Impurities in Altermagnetic Superconductors
 
 Altermagnets are a newly discovered form of magnetic order, similar to antiferromagnets, that do not preserve Kramers degeneracy and show staggered magnetism both in real-space and in momentum-space. After being proposed theoretically, signatures of altermagnetism have been observed in some oxides.
 
 Because of this peculiar spin-split band structure, altermagnetism holds the promise of new intriguing phenomena when put in contact with superconductors. Can we create synthetic unconventional superconducting pairing by combining these two materials? Can we use altermagnetism as a new tool in synthetic topological quantum matter?
 
-In this project, you will try to answer these questions. In particular, we will focus on magnetic vortices in altermagnetic superconductors. The project will be mainly numerical; we will develop a Bogoliubov-De Gennes (BdG) model and study tight-binding simulations.
+In this project, you will try to answer these questions. In particular, we will focus on impurities in altermagnetic superconductors. The project will use a blend of numerical and analytical method. We will develop a Bogoliubov-De Gennes (BdG) model and study tight-binding simulations and T-matrix analytical approximations.
 
 **What you can expect from this project:**
 
 - Develop a thorough understanding of the Bogoliubov-de Gennes (BdG) methods, exact diagonalization techniques, and the Kernel Polynomial Method.
-- Study Abrikosov vortex physics in the context of altermagnetic superconductors
+- Study simple analytical techniques like T-matrix formalism.
 - Learn how to write efficient numerical software, and the basics of scientific software engineering.
 - Get hands-on experience with High Performance Computing (HPC).
 - This project is part of an international collaboration on altermagnetic superconductors.
 
 **References:**
 
-1. Mazin, *Altermagnetism—A New Punch Line of Fundamental Magnetism* [https://doi.org/10.1103/PhysRevX.12.040002](https://journals.aps.org/prx/edannounce/10.1103/PhysRevX.12.040002)
-2. Ouassou et al, *dc Josephson Effect in Altermagnets*, Phys. Rev. Lett. **131**, 076003 [https://arxiv.org/abs/2301.03603](https://arxiv.org/abs/2301.03603)
+1. Maiani and Souto, *Impurities States in Altermagnetic Superconductors* [arXiv:2409.01008](https://arxiv.org/abs/2409.01008) 
+2. Mazin, *Altermagnetism—A New Punch Line of Fundamental Magnetism* [https://doi.org/10.1103/PhysRevX.12.040002](https://journals.aps.org/prx/edannounce/10.1103/PhysRevX.12.040002)
+3. Ouassou et al, *dc Josephson Effect in Altermagnets*, Phys. Rev. Lett. **131**, 076003 [https://arxiv.org/abs/2301.03603](https://arxiv.org/abs/2301.03603)
+
+### 3. Identification of higher harmonics in hybrid Josephson junction arrays
+
+Josephson junction arrays are networks of superconducting islands that behave as bosonic materials, enabling the exploration of collective quantum phenomena. Historically, they have been used to implement "statistical mechanics on a chip," providing a platform to study real systems that closely emulate iconic models in statistical physics. Recent advancements have realized such arrays on top of two-dimensional electron gases at the interface of semiconductor. These systems are now gate-tunable, allowing their properties to be dynamically controlled, opening new possibilities for tailored quantum behavior.
+
+Of particular interest is the inclusion of junctions with a current-phase relation (CPR) that deviates from the standard sinusoidal form characteristic of conventional tunnel junctions. This project aims to investigate the effects of non-sinusoidal CPRs on the collective behavior of these arrays and develop methods to identify and characterize higher harmonic components in their transport properties. By focusing on hybrid superconductor-semiconductor Josephson junction arrays, the study seeks to uncover how material properties and external control parameters influence these non-linear effects, paving the way for novel applications in quantum devices.
+
+<!-- **What you can expect from this project:** -->
 
 
-### 3. Numerical solution of the Usadel equations for diffusive superconductors.
+<!-- **References:** -->
+
+
+### 4. Microscopic theory of domain-wall superconductivity in ferromagnet-superconductor heterostructures.
 
 The Usadel equations are a powerful model for describing diffusive superconductors. These equations are particularly efficient for modeling inhomogeneous systems out of equilibrium, including effects of magnetism and spin-orbit coupling, while remaining computationally affordable. This makes them an ideal framework for studying mesoscopic superconducting devices.
 
-In a previous project, I developed pyUsadel, a Python package designed to solve 2D problems in equilibrium settings. For future work, we aim to rewrite the package within a finite-element framework. This will allow us to handle more complex geometries and extend the tool's capabilities to support multicomponent superconductors and non-equilibrium setups. An improved tool could significantly benefit the development of superconducting quantum devices.
+In a previous project, I developed pyUsadel, a Python package designed to solve 2D problems in equilibrium settings. For future work, we aim to rewrite the package within a finite-element framework. This will allow us to handle more complex geometries and extend the tool's capabilities to support multicomponent superconductors and non-equilibrium setups. An improved tool could significantly benefit the development of superconducting quantum devices. We will then use this tool to simulate how percolative superconductivity arise in superconductor-ferromagnet heterostructures. 
 
-This project not only aims to advance the computational tools available for studying superconducting systems but also provides a comprehensive learning experience in computational physics, software engineering, and high-performance computing.
+This project not only aims to advance the computational tools available for studying superconducting systems but also provides a comprehensive learning experience in computational physics, software engineering, and high-performance computing. 
 
 **What you can expect from this project:**
 
