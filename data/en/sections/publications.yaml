@@ -21,6 +21,48 @@ buttons:
 
 publications:
 
+- title: Impurity States in Altermagnetic Superconductors
+  authors:
+  - name: Andrea Maiani
+  - name: Rubén Seoane Souto
+  categories: [supersemi]
+  paper:
+    summary: ''
+    url: ''
+  publishedIn:
+    date: 2 September 2024
+    name: ArXiv
+    url: https://arxiv.org/abs/2409.01008
+  
+
+- title: Machine learning analysis of structural data to predict electronic properties in near-surface InAs quantum wells 
+  authors:
+  - name: Patrick J. Strohbeen
+  - name: Abtin Abbaspour
+  - name: Amara Keita
+  - name: Tarek Nabih
+  - name: Aliona Lejuste
+  - name: Alisa Danilenko
+  - name: Andrea Maiani
+  - name: Ido Levy
+  - name: Jacob Issokson
+  - name: Tyler Cowan
+  - name: William M. Strickland
+  - name: Mehdi Hatefipour
+  - name: Ashley Argueta
+  - name: Lukas Baker
+  - name: Melissa Mikalsen
+  - name: Javad Shabani
+  categories: [supersemi]
+  paper:
+    summary: ''
+    url: ''
+  publishedIn:
+    date: 13 October 2024
+    name: ArXiv
+    url: https://arxiv.org/abs/2409.17321
+
+
 - title: "Gatemonium: A Voltage-Tunable Fluxonium"
   authors:
   - name: William M Strickland
@@ -73,7 +115,7 @@ publications:
     url: ''
   publishedIn:
     date: June 2023
-    name: Physical Review B
+    name: Physical Review B, 107, 245415
     url: http://doi.org/10.1103/physrevb.107.245415
   tags: []
   title: Nonsinusoidal current-phase relations in semiconductor-superconductor-ferromagnetic
@@ -106,7 +148,7 @@ publications:
     url: ''
   publishedIn:
     date: February 2023
-    name: Physical Review B
+    name: Physical Review B, 107, l081301
     url: http://doi.org/10.1103/physrevb.107.l081301
   tags: []
   title: Supercurrent reversal in ferromagnetic hybrid nanowire Josephson junctions
@@ -122,7 +164,7 @@ publications:
     url: ''
   publishedIn:
     date: February 2023
-    name: Semiconductor Science and Technology
+    name: Semiconductor Science and Technology, 38, 045004
     url: http://doi.org/10.1088/1361-6641/acbb9a
   tags: []
   title: Orbital-free approach for large-scale electrostatic simulations of quantum
@@ -137,11 +179,11 @@ publications:
     url: ''
   publishedIn:
     date: September 2022
-    name: Physical Review B
-    url: ''
+    name: Physical Review B, 106, 104516
+    url: http://doi.org/10.1103/physrevb.106.104516
   tags: []
-  title: Conductance matrix symmetries of multiterminal semiconductor-superconductor
-    devices
+  title: Conductance matrix symmetries of multiterminal semiconductor-superconductor devices
+
 - authors:
   - name: Andrea Maiani
   - name: Andrea Benfenati
@@ -152,7 +194,7 @@ publications:
     url: ''
   publishedIn:
     date: June 2022
-    name: Physical Review B
+    name: Physical Review B, 105, 224507 
     url: http://doi.org/10.1103/physrevb.105.224507
   tags: []
   title: Vortex nucleation barriers and stable fractional vortices near boundaries
@@ -172,7 +214,7 @@ publications:
     url: ''
   publishedIn:
     date: August 2022
-    name: npj Quantum Materials
+    name: npj Quantum Materials, 7, 81
     url: http://doi.org/10.1038/s41535-022-00489-9
   tags: []
   title: Semiconductor-ferromagnet-superconductor planar heterostructures for 1D topological
@@ -187,7 +229,7 @@ publications:
     url: ''
   publishedIn:
     date: August 2022
-    name: 'PRX Quantum'
+    name: 'PRX Quantum, 3, 030329'
     url: http://doi.org/10.1103/prxquantum.3.030329
   tags: []
   title: Entangling Transmons with Low-Frequency Protected Superconducting Qubits
@@ -202,7 +244,7 @@ publications:
     url: ''
   publishedIn:
     date: March 2021
-    name: Physical Review B
+    name: Physical Review B, 103, 104508
     url: http://doi.org/10.1103/physrevb.103.104508
   tags: []
   title: Topological superconductivity in semiconductor-superconductor-magnetic-insulator
@@ -218,7 +260,7 @@ publications:
     url: ''
   publishedIn:
     date: June 2020
-    name: Physical Review B
+    name: Physical Review B, 101, 220505
     url: http://doi.org/10.1103/physrevb.101.220505
   tags: []
   title: 'Vortex nucleation barrier in superconductors beyond the Bean-Livingston
