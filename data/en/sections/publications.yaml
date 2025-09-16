@@ -21,7 +21,23 @@ buttons:
 
 publications:
 
-- title: Impurity States in Altermagnetic Superconductors
+- title: Andreev crystals in hybrid Josephson junction arrays
+  authors:
+  - name: Anders Enevold Dahl
+  - name: Andrea Maiani
+  - name: Max Geier
+  - name: Javad Shabani
+  - name: Karsten Flensberg
+  categories: [supersemi]
+  paper:
+    summary: ''
+    url: ''
+  publishedIn:
+    date: 15 Aug 2025 
+    name: arXiv
+    url: https://arxiv.org/abs/2508.11768
+
+- title: Impurity states in altermagnetic superconductors
   authors:
   - name: Andrea Maiani
   - name: Rubén Seoane Souto
@@ -30,9 +46,9 @@ publications:
     summary: ''
     url: ''
   publishedIn:
-    date: 2 September 2024
-    name: ArXiv
-    url: https://arxiv.org/abs/2409.01008
+    date: 12 June 2025
+    name: Phys. Rev. B 111, 224506
+    url: https://doi.org/10.1103/f6nc-vsnx
   
 
 - title: Machine learning analysis of structural data to predict electronic properties in near-surface InAs quantum wells 
@@ -79,9 +95,9 @@ publications:
     summary: ''
     url: ''
   publishedIn:
-    date: 13 June 2024
-    name: ArXiv
-    url: https://arxiv.org/abs/2406.09002
+    date: 10 February, 2025
+    name: PRX Quantum 6, 010326
+    url: https://doi.org/10.1103/PRXQuantum.6.010326
 
 
 - title: Percolative supercurrent in superconductor-ferromagnetic insulator bilayers
