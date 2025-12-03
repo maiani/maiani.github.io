@@ -1,6 +1,6 @@
 ---
 title: "Master thesis projects"
-date: 2024-12-05T08:30:00
+date: 2025-12-03T08:30:00
 description: Master thesis projects
 menu:
   sidebar:
@@ -15,62 +15,43 @@ In this page you can find a list of Master thesis project avaialble.
 Please contact me if you are interested in working on one of these topic or if you have other ideas you 
 want to pursue together.
 
-### 1. Multiterminal Josephson Effects with Floquet Scattering Matrices
+### 1. Probing the quantum energy landscape of a superconducting qubit
+Superconducting qubits rely on Josephson junctions—tiny nonlinear elements whose properties ultimately shape how well a qubit behaves. In theory these junctions create a simple cosine-shaped potential. In practice, real devices often carry small imperfections, such as higher harmonics in the potential, that subtly change the qubit’s energy levels and dynamics.
 
-Josephson junctions are fundamental components in the realm of superconducting quantum electronics and quantum computing, primarily due to the DC Josephson effect, which produces the nonlinear inductance necessary for qubit operation.
+Once the junction sits inside a transmon circuit, these imperfections can no longer be studied with standard DC techniques. Instead, they must be inferred indirectly, through microwave spectroscopy and time-domain measurements. This project explores how well a transmon can reveal such hidden features in its own potential.
 
-The AC Josephson effect, a dynamic counterpart of the DC effect, occurs when a finite voltage applied to a junction induces an alternating current (AC). The mechanisms underlying the AC Josephson effect are less straightforward compared to those of the DC Josephson effect, resulting in a theory that is not easily generalizable.
+You will model how a small second-harmonic contribution affects the qubit's energy landscape and determine how easily it can be detected through different measurement protocols. Tools from quantum metrology, especially the quantum Fisher information, provide a way to quantify how distinguishable two slightly different potentials are. By comparing this ideal sensitivity with what realistic measurements can extract, the project highlights which experiments are most effective at uncovering microscopic imperfections.
 
-This project aims to reformulate the theory of the Josephson effects by utilizing Floquet scattering matrices. This novel approach is expected to yield a simpler, more generalizable framework. Initially, we will develop a foundational model using these matrices to understand the simple case of a normal junction. Subsequently, the model will be applied to analyze junctions constructed from unconventional materials, multiterminal junctions, and finally general superconducting circuits.
+**What you can expect from this project**
+- Learn how the Josephson potential shapes the behaviour of a transmon qubit.
+- Model how small deviations from the ideal potential influence spectra and time evolution.
+- Use quantum-estimation tools to assess how much information different measurements can reveal.
+- Simulate realistic protocols such as Ramsey and Rabi experiments to evaluate their sensitivity.
+- Develop skills in numerical modelling, circuit quantum electrodynamics, and data analysis.
 
-The successful execution of this project could lead to significant advancements in the understanding and application of Josephson junctions in quantum technologies. The expected duration is one academic year and is aimed at writing a paper. The project may include a strong numerical part depending on the direction we choose to follow.
+**References:**
+- A. Blais et al., Circuit Quantum Electrodynamics, Rev. Mod. Phys. 93, 025005 (2021)
+  
+### 2. Exploring quantum point contacts with neural networks
+
+Quantum point contacts (QPCs) are a central platform for studying how confinement and interactions shape electronic transport. Their quantized conductance is well understood in non-interacting models, yet interaction-driven phenomena—such as the 0.7 anomaly and the formation of quasi-localized states—remain challenging to capture with conventional techniques.
+
+This project uses neural-network variational Monte Carlo (NNVMC) to investigate QPCs from a many-body perspective. Neural-network wave functions offer a flexible way to approximate correlated states in low-dimensional geometries, making them well suited for studying interacting electrons in constrictions. By combining NNVMC with transport diagnostics such as flux-twist energetics and the Drude weight, we will explore how interactions modify the ground state and how these modifications relate to transport behavior.
+
+The project blends theory and computation: you will learn the essential physics of QPCs, implement and train neural-network wave functions, and extract observables relevant to transport. This provides a strong introduction to machine-learning-assisted quantum simulations and their use in mesoscopic physics.
 
 **What you can expect from this project:**
 
-- An extensive introduction to superconductor nanoelectronics.
-- Learn the language of Floquet scattering matrices for the description of quantum transport.
-- Understand how to develop a new method for a known problem, and how to apply a known method to a new unknown problem.
+- Understand QPC physics in both non-interacting and interacting regimes.
+- Learn the core ideas of variational Monte Carlo and neural-network quantum states.
+- Implement and train neural-network ansätze for confined geometries.
+- Compute quantities such as the Drude weight to probe transport properties.
+- Gain experience in numerical optimization, Monte Carlo sampling, and GPU-based computation.
 
 **References:**
+- A. Avodoshkin, M. Geier, and L. Fu, An integrated neural wavefunction solver for spinful Fermi systems, [https://arxiv.org/abs/2510.18621](https://arxiv.org/abs/2510.18621)
 
-1. *Scattering Matrix Approach to Non-Stationary Quantum Transport*, Michael V Moskalets
-2. Pankratova, Natalia, et al. "Multiterminal josephson effect." *Physical Review X* 10 031051 (2020)
-
-### 2. Impurities in Altermagnetic Superconductors
-
-Altermagnets are a newly discovered form of magnetic order, similar to antiferromagnets, that do not preserve Kramers degeneracy and show staggered magnetism both in real-space and in momentum-space. After being proposed theoretically, signatures of altermagnetism have been observed in some oxides.
-
-Because of this peculiar spin-split band structure, altermagnetism holds the promise of new intriguing phenomena when put in contact with superconductors. Can we create synthetic unconventional superconducting pairing by combining these two materials? Can we use altermagnetism as a new tool in synthetic topological quantum matter?
-
-In this project, you will try to answer these questions. In particular, we will focus on impurities in altermagnetic superconductors. The project will use a blend of numerical and analytical method. We will develop a Bogoliubov-De Gennes (BdG) model and study tight-binding simulations and T-matrix analytical approximations.
-
-**What you can expect from this project:**
-
-- Develop a thorough understanding of the Bogoliubov-de Gennes (BdG) methods, exact diagonalization techniques, and the Kernel Polynomial Method.
-- Study simple analytical techniques like T-matrix formalism.
-- Learn how to write efficient numerical software, and the basics of scientific software engineering.
-- Get hands-on experience with High Performance Computing (HPC).
-- This project is part of an international collaboration on altermagnetic superconductors.
-
-**References:**
-
-1. Maiani and Souto, *Impurities States in Altermagnetic Superconductors* [arXiv:2409.01008](https://arxiv.org/abs/2409.01008) 
-2. Mazin, *Altermagnetism—A New Punch Line of Fundamental Magnetism* [https://doi.org/10.1103/PhysRevX.12.040002](https://journals.aps.org/prx/edannounce/10.1103/PhysRevX.12.040002)
-3. Ouassou et al, *dc Josephson Effect in Altermagnets*, Phys. Rev. Lett. **131**, 076003 [https://arxiv.org/abs/2301.03603](https://arxiv.org/abs/2301.03603)
-
-### 3. Identification of higher harmonics in hybrid Josephson junction arrays
-
-Josephson junction arrays are networks of superconducting islands that behave as bosonic materials, enabling the exploration of collective quantum phenomena. Historically, they have been used to implement "statistical mechanics on a chip," providing a platform to study real systems that closely emulate iconic models in statistical physics. Recent advancements have realized such arrays on top of two-dimensional electron gases at the interface of semiconductor. These systems are now gate-tunable, allowing their properties to be dynamically controlled, opening new possibilities for tailored quantum behavior.
-
-Of particular interest is the inclusion of junctions with a current-phase relation (CPR) that deviates from the standard sinusoidal form characteristic of conventional tunnel junctions. This project aims to investigate the effects of non-sinusoidal CPRs on the collective behavior of these arrays and develop methods to identify and characterize higher harmonic components in their transport properties. By focusing on hybrid superconductor-semiconductor Josephson junction arrays, the study seeks to uncover how material properties and external control parameters influence these non-linear effects, paving the way for novel applications in quantum devices.
-
-<!-- **What you can expect from this project:** -->
-
-
-<!-- **References:** -->
-
-
-### 4. Microscopic theory of domain-wall superconductivity in ferromagnet-superconductor heterostructures.
+### 3. Simulation of Diffusive Superconductors
 
 The Usadel equations are a powerful model for describing diffusive superconductors. These equations are particularly efficient for modeling inhomogeneous systems out of equilibrium, including effects of magnetism and spin-orbit coupling, while remaining computationally affordable. This makes them an ideal framework for studying mesoscopic superconducting devices.
 
@@ -89,4 +70,4 @@ This project not only aims to advance the computational tools available for stud
 **References:**
 
 1. Maiani, *pyUsadel* [Github Repo](https://github.com/maiani/pyusadel)
-2. Maiani et al, *Percolative supercurrent in superconductor-ferromagnetic insulator bilayers*, arXiv:2404.17320 [https://arxiv.org/abs/2404.17320](https://arxiv.org/abs/2404.17320)
+2. Maiani et al, *Percolative supercurrent in superconductor-ferromagnetic insulator bilayers*, [https://arxiv.org/abs/2404.17320](https://arxiv.org/abs/2404.17320)
