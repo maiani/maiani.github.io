@@ -11,8 +11,8 @@ tags: []
 categories: []
 ---
 
-In this page you can find a list of Master thesis project avaialble.
-Please contact me if you are interested in working on one of these topic or if you have other ideas you 
+On this page you can find a list of available Master thesis projects.
+Please contact me if you are interested in working on one of these topics or if you have other ideas you 
 want to pursue together.
 
 ### 1. Probing the quantum energy landscape of a superconducting qubit
@@ -69,5 +69,5 @@ This project not only aims to advance the computational tools available for stud
 
 **References:**
 
-1. Maiani, *pyUsadel* [Github Repo](https://github.com/maiani/pyusadel)
+1. Maiani, *pyUsadel* [GitHub repo](https://github.com/maiani/pyusadel)
 2. Maiani et al, *Percolative supercurrent in superconductor-ferromagnetic insulator bilayers*, [https://arxiv.org/abs/2404.17320](https://arxiv.org/abs/2404.17320)

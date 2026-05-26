@@ -1,6 +1,6 @@
 baseURL: https://www.andreamaiani.com
 
-languageCode: en-us
+locale: en-US
 title: "Andrea Maiani, PhD"
 
 # Use Hugo modules to add theme
@@ -24,9 +24,9 @@ EnableRobotsTXT: true
 languages:
   en:
     disabled: false
-    languageCode: en-US
-    languageDirection: ltr
-    languageName: English
+    locale: en-US
+    direction: ltr
+    label: English
     weight: 0
 
 

@@ -18,10 +18,24 @@ buttons:
   filter: "cqed"
 - name: "Vortex physics"
   filter: "vortex"
+- name: "Altermagnetism"
+  filter: "altermagnetism"
 
 publications:
 
-- title: Andreev crystals in hybrid Josephson junction arrays
+- title: Conductivity anisotropy and linear dichroism in spin-textured altermagnets
+  authors:
+  - name: Andrea Maiani
+  categories: [altermagnetism]
+  paper:
+    summary: ''
+    url: ''
+  publishedIn:
+    date: 11 March 2026
+    name: arXiv
+    url: https://arxiv.org/abs/2602.14950
+
+- title: Directional conductance of Andreev crystals in hybrid Josephson junction arrays
   authors:
   - name: Anders Enevold Dahl
   - name: Andrea Maiani
@@ -33,15 +47,15 @@ publications:
     summary: ''
     url: ''
   publishedIn:
-    date: 15 Aug 2025 
-    name: arXiv
-    url: https://arxiv.org/abs/2508.11768
+    date: 11 May 2026
+    name: Phys. Rev. B 113, 184513
+    url: https://doi.org/10.1103/zrt6-971d
 
 - title: Impurity states in altermagnetic superconductors
   authors:
   - name: Andrea Maiani
   - name: Rubén Seoane Souto
-  categories: [supersemi]
+  categories: [supersemi, altermagnetism]
   paper:
     summary: ''
     url: ''
@@ -49,17 +63,17 @@ publications:
     date: 12 June 2025
     name: Phys. Rev. B 111, 224506
     url: https://doi.org/10.1103/f6nc-vsnx
-  
 
-- title: Machine learning analysis of structural data to predict electronic properties in near-surface InAs quantum wells 
+- title: Machine learning approach for rapid sample screening in near-surface InAs quantum wells
   authors:
   - name: Patrick J. Strohbeen
   - name: Abtin Abbaspour
   - name: Amara Keita
   - name: Tarek Nabih
   - name: Aliona Lejuste
-  - name: Alisa Danilenko
+  - name: Krishna Dindial
   - name: Andrea Maiani
+  - name: Alisa Danilenko
   - name: Ido Levy
   - name: Jacob Issokson
   - name: Tyler Cowan
@@ -74,9 +88,9 @@ publications:
     summary: ''
     url: ''
   publishedIn:
-    date: 13 October 2024
-    name: ArXiv
-    url: https://arxiv.org/abs/2409.17321
+    date: 11 May 2026
+    name: Phys. Rev. Materials 10, 054601
+    url: https://doi.org/10.1103/dffc-sqbz
 
 
 - title: "Gatemonium: A Voltage-Tunable Fluxonium"
@@ -141,7 +155,7 @@ publications:
   authors:
   - name: Andrea Maiani
   paper:
-    summary: "Phd Thesis"
+    summary: "PhD thesis"
     url: "files/PhD_thesis.pdf"
   publishedIn:
     date: June 2023

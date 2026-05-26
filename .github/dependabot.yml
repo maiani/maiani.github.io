@@ -11,7 +11,7 @@ updates:
   - "dependencies"
   - "automerge"
 
-# Update the Github Action  versions
+# Update the GitHub Action versions
 - package-ecosystem: "github-actions"
   directory: "/"
   schedule:

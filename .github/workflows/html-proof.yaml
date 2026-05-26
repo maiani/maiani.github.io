@@ -11,13 +11,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     # checkout to the commit that has been pushed
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
       with:
         submodules: true  # Fetch Hugo themes (true OR recursive)
         fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
     
     - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v3.0.0
+      uses: peaceiris/actions-hugo@v3
       with:
         hugo-version: 'latest'
         extended: true
@@ -26,9 +26,9 @@ jobs:
       run: hugo mod tidy
 
     - name: Setup Node
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v6
       with:
-        node-version: 20
+        node-version: 24
 
     - name: Install node modules
       run: |
@@ -43,4 +43,3 @@ jobs:
       with:
         directory: ./public
         enforce_https: false
-
