@@ -26,7 +26,7 @@ experiences:
     # - Lead backend team..
     
 - company:
-    name: New York University | Center for Quantum Information Phsyics
+    name: New York University | Center for Quantum Information Physics
     url: "https://www.nyu.edu"
     location: New York City 
     logo: /images/site/nyu_logo.svg
@@ -40,7 +40,7 @@ experiences:
     # - Design and develop XYZ tool for ABC task
 
 - company:
-    name: Universty of Copenhagen | Center for Quantum Devices
+    name: University of Copenhagen | Center for Quantum Devices
     url: "https://qdev.nbi.ku.dk/"
     location: Copenhagen    
     logo: /images/site/ku_logo.svg

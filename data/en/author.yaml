@@ -1,6 +1,6 @@
 # some information about you
 name: "Andrea Maiani"
-nickname: " " # "Andrea"
+# nickname: "Andrea"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "" #   "Hi, I am"
 image: "images/author/andrea.jpg"
@@ -12,6 +12,8 @@ contactInfo:
   linkedin: andrea-maiani
 
 # some summary about what you do
+# Disabled to keep the homepage quieter and more academic.
 # summary:
-#   - I am a Theoretical Physicist.
-#   - I do quantum nanoelectronics.
+#   - Theoretical condensed matter physicist
+#   - Quantum nanoelectronics and superconducting heterostructures
+#   - Superconducting qubits and altermagnetism

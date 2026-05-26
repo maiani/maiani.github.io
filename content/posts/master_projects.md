@@ -1,7 +1,7 @@
 ---
 title: "Master thesis projects"
 date: 2025-12-03T08:30:00
-description: Master thesis projects
+description: Available Master thesis projects in superconducting qubits, quantum point contacts, and diffusive superconductors.
 menu:
   sidebar:
     name: Master thesis projects

@@ -1,11 +1,11 @@
 # Copyright Notice
-copyright: "© 2023-2024 Copyright."
+copyright: "© 2023-2026 Copyright."
 
 # A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
 # disclaimer: "This theme is under MIT license."
 
 # Meta description for your site.  This will help the search engines to find your site.
-description: "Portfolio and personal blog of Andrea Maiani"
+description: "Andrea Maiani is a theoretical condensed matter physicist studying quantum nanoelectronics, superconducting heterostructures, altermagnetism, and superconducting qubits."
 
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
@@ -22,6 +22,6 @@ customMenus:
 openGraph:
   title: "Andrea Maiani, PhD"
   type: "website"
-  description: "Andrea Maiani Research Blog"
+  description: "Research profile, publications, projects, and teaching by Andrea Maiani, a theoretical condensed matter physicist working on quantum nanoelectronics."
   image: "images/author/andrea.jpg"
   url: "https://www.andreamaiani.com"

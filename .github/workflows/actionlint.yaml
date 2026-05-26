@@ -1,0 +1,26 @@
+name: Lint GitHub Actions
+
+on:
+  push:
+    branches:
+      - '*'
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  actionlint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v6
+
+    - name: Install actionlint
+      run: |
+        set -euo pipefail
+        curl -sSfL -o actionlint.tar.gz https://github.com/rhysd/actionlint/releases/download/v1.7.12/actionlint_1.7.12_linux_amd64.tar.gz
+        tar -xzf actionlint.tar.gz actionlint
+        sudo install -m 0755 actionlint /usr/local/bin/actionlint
+
+    - name: Lint workflows
+      run: actionlint

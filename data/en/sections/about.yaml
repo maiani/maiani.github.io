@@ -15,8 +15,8 @@ company:
   url: "https://www.nordita.org"
 
 # a summary about you
-summary: 'My area of research is at the boundary of condensed matter physics and quantum information. 
-          I specialized in quantum nanoelectronic and superconducting heterostructures, where superconductive materials 
+summary: 'My area of research is at the boundary of condensed matter physics and quantum information.
+          I specialize in quantum nanoelectronic and superconducting heterostructures, where superconducting materials
           are combined with semiconductors and magnets to generate and control new behaviors not found in nature.'
 
 # your social links
@@ -45,7 +45,7 @@ socialLinks:
 #   icon: "fab fa-facebook"
 #   url: "#"
 
-- name: Arxiv
+- name: arXiv
   icon: "ai ai-arxiv"
   url: "https://arxiv.org/search/?searchtype=author&query=Maiani%2C+A"
 
