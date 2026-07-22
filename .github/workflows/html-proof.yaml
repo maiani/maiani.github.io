@@ -18,7 +18,13 @@ jobs:
       with:
         submodules: true  # Fetch Hugo themes (true OR recursive)
         fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-    
+
+    # Fetch the Toha fork into ../toha so the `replace` directive in go.mod
+    # resolves. This lets the site ship theme features ahead of an upstream
+    # release. Remove this step (and the replace) to build against upstream.
+    - name: Fetch Toha fork
+      run: git clone --depth 1 --branch feat/seo-structured-data https://github.com/maiani/toha.git ../toha
+
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v3
       with:

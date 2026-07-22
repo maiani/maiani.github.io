@@ -9,15 +9,17 @@ section:
   # hideTitle: true
 
 # filter buttons
+# Categorized by project type. The `filter` value must match a tag on the
+# project cards below (Filterizr matches on the comma-separated tag list).
 buttons:
 - name: All
   filter: "all"
-# - name: Professional
-#   filter: "professional"
-- name: Academic
-  filter: "academic"
-- name: Hobby
-  filter: "hobby"
+- name: "Scientific software"
+  filter: "Scientific software"
+- name: "Research tools"
+  filter: "Research tools"
+- name: Games
+  filter: "Games"
 
 # your projects
 projects:
@@ -28,7 +30,7 @@ projects:
   repo: "https://github.com/maiani/mepgl"
   # url: ""
   summary: "Implementation of gauged string method for the calculation of minimum energy path of vortex nucleation in superconductors within Ginzburg-Landau theory."
-  tags: ["academic", "superconductors"]
+  tags: ["Scientific software", "Superconductivity"]
 
 - name: pyUsadel
   # logo:
@@ -37,14 +39,32 @@ projects:
   repo: "https://github.com/maiani/pyusadel"
   # url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: "Usadel equation solver for mesoscopic superconductor-ferromagnet heterostructures."
-  tags: ["academic", "superconductors"]
+  tags: ["Scientific software", "Superconductivity"]
 
 
 - name: "Fantastic PhD Thesis Template"
-  # logo: 
+  # logo:
   role: Developer
   timeline: "September 2022 - September 2023"
   repo: "https://github.com/maiani/fantastic_template"
   # url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: "Free modern PhD thesis template."
-  tags: ["academic", "hobby"]
+  tags: ["Research tools", "LaTeX"]
+
+- name: pynakes
+  # logo:
+  role: Developer
+  timeline: "June 2026 - Present"
+  repo: "https://github.com/maiani/pynakes"
+  # url: ""
+  summary: "Headless bibliography-maintenance toolkit for BibTeX, BibLaTeX, and JabRef-compatible .bib libraries, designed for researchers, scripts, and LLM-assisted workflows that need small, explicit, reviewable changes without corrupting human-curated metadata."
+  tags: ["Research tools", "Bibliography"]
+
+- name: "Quantum Minesweeper"
+  # logo:
+  role: Developer
+  timeline: "August 2025 - Present"
+  repo: "https://github.com/maiani/quantum-minesweeper"
+  # url: "https://qminesweeper.andreamaiani.com"  # already linked in the navbar via customMenus; theme disallows repo + url together
+  summary: "A quantum-mechanical twist on the classic Minesweeper game."
+  tags: ["Games", "Quantum"]

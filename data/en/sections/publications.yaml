@@ -32,11 +32,10 @@ publications:
   paper:
     summary: ''
     url: ''
+    arxiv: "2606.26066"
   publishedIn:
     date: 24 June 2026
     name: arXiv
-    url: https://arxiv.org/abs/2606.26066
-
 - title: Conductivity anisotropy and linear dichroism in spin-textured altermagnets
   authors:
   - name: Andrea Maiani
@@ -44,11 +43,10 @@ publications:
   paper:
     summary: ''
     url: ''
+    arxiv: "2602.14950"
   publishedIn:
     date: 11 March 2026
     name: arXiv
-    url: https://arxiv.org/abs/2602.14950
-
 - title: Directional conductance of Andreev crystals in hybrid Josephson junction arrays
   authors:
   - name: Anders Enevold Dahl
@@ -60,11 +58,12 @@ publications:
   paper:
     summary: ''
     url: ''
+    doi: "10.1103/zrt6-971d"
   publishedIn:
     date: 11 May 2026
-    name: Phys. Rev. B 113, 184513
-    url: https://doi.org/10.1103/zrt6-971d
-
+    name: Phys. Rev. B
+    volume: "113"
+    articleNumber: "184513"
 - title: Impurity states in altermagnetic superconductors
   authors:
   - name: Andrea Maiani
@@ -73,11 +72,12 @@ publications:
   paper:
     summary: ''
     url: ''
+    doi: "10.1103/f6nc-vsnx"
   publishedIn:
     date: 12 June 2025
-    name: Phys. Rev. B 111, 224506
-    url: https://doi.org/10.1103/f6nc-vsnx
-
+    name: Phys. Rev. B
+    volume: "111"
+    articleNumber: "224506"
 - title: Machine learning approach for rapid sample screening in near-surface InAs quantum wells
   authors:
   - name: Patrick J. Strohbeen
@@ -101,12 +101,12 @@ publications:
   paper:
     summary: ''
     url: ''
+    doi: "10.1103/dffc-sqbz"
   publishedIn:
     date: 11 May 2026
-    name: Phys. Rev. Materials 10, 054601
-    url: https://doi.org/10.1103/dffc-sqbz
-
-
+    name: Phys. Rev. Materials
+    volume: "10"
+    articleNumber: "054601"
 - title: "Gatemonium: A Voltage-Tunable Fluxonium"
   authors:
   - name: William M Strickland
@@ -122,12 +122,12 @@ publications:
   paper:
     summary: ''
     url: ''
+    doi: "10.1103/PRXQuantum.6.010326"
   publishedIn:
     date: 10 February, 2025
-    name: PRX Quantum 6, 010326
-    url: https://doi.org/10.1103/PRXQuantum.6.010326
-
-
+    name: PRX Quantum
+    volume: "6"
+    articleNumber: "010326"
 - title: Percolative supercurrent in superconductor-ferromagnetic insulator bilayers
   authors:
   - name: A. Maiani
@@ -141,11 +141,12 @@ publications:
   paper:
     summary: ''
     url: ''
+    doi: "10.1103/PhysRevB.111.174509"
   publishedIn:
     date: 8 May 2025
-    name: Phys. Rev. B 111, 174509
-    url: https://doi.org/10.1103/PhysRevB.111.174509
-
+    name: Phys. Rev. B
+    volume: "111"
+    articleNumber: "174509"
 - authors:
   - name: Andrea Maiani
   - name: Karsten Flensberg
@@ -157,15 +158,16 @@ publications:
   paper:
     summary: ''
     url: ''
+    doi: "10.1103/physrevb.107.245415"
   publishedIn:
     date: June 2023
-    name: Physical Review B, 107, 245415
-    url: http://doi.org/10.1103/physrevb.107.245415
+    name: Physical Review B
+    volume: "107"
+    articleNumber: "245415"
   tags: []
-  title: Nonsinusoidal current-phase relations in semiconductor-superconductor-ferromagnetic
-    insulator devices
+  title: Nonsinusoidal current-phase relations in semiconductor-superconductor-ferromagnetic insulator devices
 
-- title: "Modeling of Hybrid Nanoelectronic Devices for Quantum Information Processing" 
+- title: "Modeling of Hybrid Nanoelectronic Devices for Quantum Information Processing"
   authors:
   - name: Andrea Maiani
   paper:
@@ -185,15 +187,17 @@ publications:
   - name: C. Schrade
   - name: A. Gyenis
   - name: C. M. Marcus
-  - name: "S. Vaitiek\u0117nas"
+  - name: "S. Vaitiekėnas"
   categories: [supersemi]
   paper:
     summary: ''
     url: ''
+    doi: "10.1103/physrevb.107.l081301"
   publishedIn:
     date: February 2023
-    name: Physical Review B, 107, l081301
-    url: http://doi.org/10.1103/physrevb.107.l081301
+    name: Physical Review B
+    volume: "107"
+    articleNumber: "l081301"
   tags: []
   title: Supercurrent reversal in ferromagnetic hybrid nanowire Josephson junctions
 
@@ -206,13 +210,14 @@ publications:
   paper:
     summary: ''
     url: ''
+    doi: "10.1088/1361-6641/acbb9a"
   publishedIn:
     date: February 2023
-    name: Semiconductor Science and Technology, 38, 045004
-    url: http://doi.org/10.1088/1361-6641/acbb9a
+    name: Semiconductor Science and Technology
+    volume: "38"
+    articleNumber: "045004"
   tags: []
-  title: Orbital-free approach for large-scale electrostatic simulations of quantum
-    nanoelectronics devices
+  title: Orbital-free approach for large-scale electrostatic simulations of quantum nanoelectronics devices
 - authors:
   - name: Andrea Maiani
   - name: Max Geier
@@ -221,10 +226,12 @@ publications:
   paper:
     summary: ''
     url: ''
+    doi: "10.1103/physrevb.106.104516"
   publishedIn:
     date: September 2022
-    name: Physical Review B, 106, 104516
-    url: http://doi.org/10.1103/physrevb.106.104516
+    name: Physical Review B
+    volume: "106"
+    articleNumber: "104516"
   tags: []
   title: Conductance matrix symmetries of multiterminal semiconductor-superconductor devices
 
@@ -236,13 +243,14 @@ publications:
   paper:
     summary: ''
     url: ''
+    doi: "10.1103/physrevb.105.224507"
   publishedIn:
     date: June 2022
-    name: Physical Review B, 105, 224507 
-    url: http://doi.org/10.1103/physrevb.105.224507
+    name: Physical Review B
+    volume: "105"
+    articleNumber: "224507"
   tags: []
-  title: Vortex nucleation barriers and stable fractional vortices near boundaries
-    in multicomponent superconductors
+  title: Vortex nucleation barriers and stable fractional vortices near boundaries in multicomponent superconductors
 - authors:
   - name: Samuel D. Escribano
   - name: Andrea Maiani
@@ -256,13 +264,14 @@ publications:
   paper:
     summary: ''
     url: ''
+    doi: "10.1038/s41535-022-00489-9"
   publishedIn:
     date: August 2022
-    name: npj Quantum Materials, 7, 81
-    url: http://doi.org/10.1038/s41535-022-00489-9
+    name: npj Quantum Materials
+    volume: "7"
+    articleNumber: "81"
   tags: []
-  title: Semiconductor-ferromagnet-superconductor planar heterostructures for 1D topological
-    superconductivity
+  title: Semiconductor-ferromagnet-superconductor planar heterostructures for 1D topological superconductivity
 - authors:
   - name: Andrea Maiani
   - name: Morten Kjaergaard
@@ -271,10 +280,12 @@ publications:
   paper:
     summary: ''
     url: ''
+    doi: "10.1103/prxquantum.3.030329"
   publishedIn:
     date: August 2022
-    name: 'PRX Quantum, 3, 030329'
-    url: http://doi.org/10.1103/prxquantum.3.030329
+    name: 'PRX Quantum'
+    volume: "3"
+    articleNumber: "030329"
   tags: []
   title: Entangling Transmons with Low-Frequency Protected Superconducting Qubits
 - authors:
@@ -286,13 +297,14 @@ publications:
   paper:
     summary: ''
     url: ''
+    doi: "10.1103/physrevb.103.104508"
   publishedIn:
     date: March 2021
-    name: Physical Review B, 103, 104508
-    url: http://doi.org/10.1103/physrevb.103.104508
+    name: Physical Review B
+    volume: "103"
+    articleNumber: "104508"
   tags: []
-  title: Topological superconductivity in semiconductor-superconductor-magnetic-insulator
-    heterostructures
+  title: Topological superconductivity in semiconductor-superconductor-magnetic-insulator heterostructures
 - authors:
   - name: Andrea Benfenati
   - name: Andrea Maiani
@@ -302,10 +314,11 @@ publications:
   paper:
     summary: ''
     url: ''
+    doi: "10.1103/physrevb.101.220505"
   publishedIn:
     date: June 2020
-    name: Physical Review B, 101, 220505
-    url: http://doi.org/10.1103/physrevb.101.220505
+    name: Physical Review B
+    volume: "101"
+    articleNumber: "220505"
   tags: []
-  title: 'Vortex nucleation barrier in superconductors beyond the Bean-Livingston
-    approximation: A numerical approach for the sphaleron problem in a gauge theory'
+  title: 'Vortex nucleation barrier in superconductors beyond the Bean-Livingston approximation: A numerical approach for the sphaleron problem in a gauge theory'
