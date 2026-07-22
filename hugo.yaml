@@ -251,8 +251,10 @@ params:
     # Put your template in "layouts/partials" folder of your repo.
     template: footer.html
     # Show/hide navigation in the footer. Default is "true".
+    # Disabled: the sticky top navbar already covers section navigation on this
+    # single-page site, so the footer nav column was redundant.
     navigation:
-      enable: true
+      enable: false
       # show custom menus in the footer
       customMenus: true
     # Show/hide "Contact Me" section in the footer. Default is "true".
