@@ -173,6 +173,7 @@ publications:
   paper:
     summary: "PhD thesis"
     url: "files/PhD_thesis.pdf"
+    urlText: "Download"
   publishedIn:
     date: June 2023
     name: Niels Bohr Institute, Faculty of Science, University of Copenhagen

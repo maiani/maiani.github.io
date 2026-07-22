@@ -35,10 +35,10 @@ degrees:
   institution:
     name: Politecnico di Milano
     url: "#"
-  grade: 
-     scale: Final grade
-     achieved: 110
-     outOf: 110
+  # grade: 
+  #    scale: Final grade
+  #    achieved: 110
+  #    outOf: 110
   # takenCourses: #(optional)
   #   # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
   #   showGrades: true
@@ -74,10 +74,10 @@ degrees:
   institution:
     name: Politecnico di Milano
     url: "#"
-  grade: 
-     scale: Final grade
-     achieved: 110
-     outOf: 110
+  # grade: 
+  #    scale: Final grade
+  #    achieved: 110
+  #    outOf: 110
   # extracurricularActivities: #(optional)
   # - In vitae facilisis est, eget porta sem.
   # - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
