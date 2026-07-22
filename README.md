@@ -4,5 +4,4 @@
 ![Repository Size](https://img.shields.io/github/repo-size/maiani/maiani.github.io) 
 ![Last Commit](https://img.shields.io/github/last-commit/maiani/maiani.github.io) 
 
-# TODO
-- Add talks
+Personal academic website for Andrea Maiani, built with Hugo and the Toha theme.

@@ -12,16 +12,30 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: "Hybrid devices"
-  filter: "supersemi"
-- name: "CQED"
-  filter: "cqed"
-- name: "Vortex physics"
-  filter: "vortex"
 - name: "Altermagnetism"
   filter: "altermagnetism"
+- name: "Superconducting heterostructures"
+  filter: "supersemi"
+- name: "Qubits"
+  filter: "cqed"
 
 publications:
+
+- title: All-electrical dephasing-protected spin qubits in altermagnets
+  authors:
+  - name: José Carlos Abadillo-Uriel
+  - name: Andrea Maiani
+  - name: Alberto Cortijo
+  - name: Ramón Aguado
+  - name: Rubén Seoane Souto
+  categories: [altermagnetism, cqed]
+  paper:
+    summary: ''
+    url: ''
+  publishedIn:
+    date: 24 June 2026
+    name: arXiv
+    url: https://arxiv.org/abs/2606.26066
 
 - title: Conductivity anisotropy and linear dichroism in spin-textured altermagnets
   authors:
