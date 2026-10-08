@@ -15,9 +15,11 @@ company:
   url: "https://www.nordita.org"
 
 # a summary about you
-summary: 'My area of research is at the boundary of condensed matter physics and quantum information.
-          I specialize in quantum nanoelectronic and superconducting heterostructures, where superconducting materials
-          are combined with semiconductors and magnets to generate and control new behaviors not found in nature.'
+summary: 'I am a theoretical physicist working at the boundary of condensed matter physics and quantum technology.
+          I model quantum devices, from hybrid superconducting systems and mesoscopic conductors to unconventional
+          magnetic materials, combining analytical theory, numerical simulation, and close collaboration with
+          experimental groups. My current work covers Josephson junctions, superconducting qubits, transport and
+          optics in altermagnets, and altermagnet-based spin qubits.'
 
 # your social links
 socialLinks:
@@ -52,6 +54,10 @@ socialLinks:
 - name: Google Scholar
   icon: "ai ai-google-scholar"
   url: "https://scholar.google.com/citations?user=DcMhFnYAAAAJ"
+
+- name: ORCID
+  icon: "ai ai-orcid"
+  url: "https://orcid.org/0000-0001-8293-3194"
 
 
 # You can put custom buttons to link your relevant resources.

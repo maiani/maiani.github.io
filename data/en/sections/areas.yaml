@@ -11,16 +11,11 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: "Hybrid heterostructures"
-  # logo: 
-  summary: "My main interest is studying nanoelectronic devices composed of different materials, like superconductors, semiconductors, and magnetic materials. These heterostructures allow achieving properties not available in nature, like topological excitations."
-  # url: 
+- name: "Quantum devices"
+  summary: "I study superconducting circuits and hybrid devices in which superconductors are combined with semiconductors and magnetic materials. Topics include protected and gate-tunable superconducting qubits, Josephson junctions with unconventional current-phase relations, quantum-dot chains, and topological superconductivity, often in collaboration with the groups that build and measure these devices."
 
-- name: "Superconducting qubits"
-  # logo: 
-  summary: "I study superconducting circuits to implement quantum information processing. In particular, I study heterogeneous quantum architecture that mixes different types of superconducting qubits to leverage their strengths."
-  # url: 
+- name: "Mesoscopic transport"
+  summary: "Transport measurements are the main window on nanoscale devices. I develop theory for nonlocal tunneling spectroscopy, conductance-matrix symmetries in multiterminal devices, proximity effects, and Andreev states in Josephson junction arrays, together with numerical tools to extract microscopic parameters from experimental data."
 
-- name: "Vortex nucleation"
- # logo: 
-  summary: "The nucleation of vortices in superconductors is an example of a rare event. The frequency of these events is determined by the energy barrier experienced by vortices while crossing the sample boundary. We developed numerical methods to assess the potential landscape of vortices in both conventional and unconventional superconductors."
+- name: "Altermagnetism and spin qubits"
+  summary: "Altermagnets combine compensated magnetic order with spin-split electronic bands. I study how spin textures act as emergent gauge fields on electrons, producing anisotropic transport and linear dichroism, how altermagnetism coexists with superconductivity, and how quantum dots in altermagnets can host all-electrical, dephasing-protected spin qubits."
