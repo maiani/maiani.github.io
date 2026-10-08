@@ -1,0 +1,40 @@
+# section information
+section:
+  name: Talks
+  id: talks
+  enable: true
+  weight: 7
+  showOnNavbar: true
+  # Site-specific section rendered by layouts/partials/sections/talks.html.
+  template: sections/talks.html
+
+# Each group renders as one card. Keep items newest first and in sync with
+# the talks and outreach sections of the CV.
+groups:
+- name: Talks and seminars
+  items:
+  - title: Optical and transport anisotropies in spin-textured altermagnets
+    venues: ICMM-CSIC, Madrid (2025); QUANTUMatter 2026
+  - title: Hybrid superconducting devices for quantum information processing
+    venues: NoQIP 2025
+  - title: Percolative supercurrent in superconductor-ferromagnetic insulator bilayers
+    venues: Gordon Research Conference on Hybrid Superconductor-Semiconductor Devices, Les Diablerets (2025)
+  - title: Impurity states in altermagnetic superconductors
+    venues: ICMM-CSIC, Madrid (2024); TU Dresden (2024); APS Global Physics Summit 2025
+  - title: Ferromagnetic hybrid heterostructures
+    venues: Uppsala University (2022); New York University (2023); Nordita (2024)
+  - title: Controllable current-phase relations in ferromagnetic hybrid junctions
+    venues: BalCon TP 2023
+  - title: Conductance matrix symmetries of multiterminal semiconductor-superconductor devices
+    venues: APS March Meeting 2023, Las Vegas
+  - title: Topological superconductivity in semiconductor-superconductor-magnetic insulator heterostructures
+    venues: IOP online conference "Bound states in hybrid superconductor nanostructures" (2021)
+
+- name: Outreach
+  items:
+  - title: "Quantum Computing: Concepts, Risks, Readiness"
+    venues: Invited workshop on quantum technologies and post-quantum cryptography, Central Bank of Ireland (2026)
+  - title: "When a Superconductor Learned to Tunnel: A Brief History of the Birth of Circuit QED"
+    venues: ScientiFika popular-science talk on the 2025 Nobel Prize in Physics, Nordita (2025)
+  - title: Quantum Minesweeper at ForskarFredag
+    venues: Activity for high-school students at ForskarFredag, the Swedish part of the European Researchers' Night (2025, 2026)

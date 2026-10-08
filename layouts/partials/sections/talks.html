@@ -1,0 +1,39 @@
+{{/* Site-specific section: Toha has no talks section. Renders each group in
+     data/en/sections/talks.yaml as one card with a compact list. */}}
+{{ $sectionID := replace (lower .section.name) " " "-" }}
+{{ if .section.id }}
+  {{ $sectionID = .section.id }}
+{{ end }}
+
+<div class="container-fluid anchor pb-5 publications-section" id="{{ $sectionID }}">
+  {{ if not (.section.hideTitle) }}
+    <h1 class="text-center">
+        <span id="{{ $sectionID }}"></span>{{ .section.name }}</h1>
+  {{ else }}
+    <h1 class="text-center" style="display: none">
+        <span id="{{ $sectionID }}"></span>{{ .section.name }}</h1>
+  {{ end }}
+  <div class="container">
+    <div class="row">
+      {{ range .groups }}
+      <div class="col-12 p-2">
+        <div class="card mt-3">
+          <div class="card-header">
+            <h5 class="card-title mb-0">{{ .name }}</h5>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled mb-0">
+              {{ range .items }}
+              <li class="mb-3">
+                <div>{{ .title | markdownify }}</div>
+                {{ with .venues }}<div class="sub-title text-muted small">{{ . | markdownify }}</div>{{ end }}
+              </li>
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
