@@ -32,6 +32,13 @@ projects:
   summary: "Implementation of gauged string method for the calculation of minimum energy path of vortex nucleation in superconductors within Ginzburg-Landau theory."
   tags: ["Scientific software", "Superconductivity"]
 
+- name: ThermalSpin
+  role: Developer
+  timeline: "2018"
+  repo: "https://github.com/maiani/thermalspin"
+  summary: "Monte Carlo simulator for classical Heisenberg models with Dzyaloshinskii-Moriya interactions."
+  tags: ["Scientific software", "Magnetism"]
+
 - name: pyUsadel
   # logo:
   role: Developer
@@ -67,4 +74,12 @@ projects:
   repo: "https://github.com/maiani/quantum-minesweeper"
   # url: "https://qminesweeper.andreamaiani.com"  # already linked in the navbar via customMenus; theme disallows repo + url together
   summary: "A quantum-mechanical twist on the classic Minesweeper game."
+  tags: ["Games", "Quantum"]
+
+- name: "Qapture the Flag"
+  role: Developer
+  timeline: "September 2026"
+  repo: "https://github.com/maiani/qapture-the-flag"
+  # Playable at https://qapture-the-flag.vercel.app; the theme disallows repo + url together.
+  summary: "A two-team quantum game in which both teams contest one shared qubit: gates rotate the Bloch vector toward each team's pole, and a measurement lets the Born rule pick the winner. Developed at the Lorentz Center workshop *Advancing Quantum Technology with Quantum Games* (Leiden, 2026)."
   tags: ["Games", "Quantum"]
