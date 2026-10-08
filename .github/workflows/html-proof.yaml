@@ -51,8 +51,22 @@ jobs:
     - name: Build
       run: hugo --minify
 
-    # Run HTML Proofer
+    # Run HTML Proofer: validate the HTML/CSS and check every link in the built
+    # site, including links that come from data files (publications, talks).
     - uses: anishathalye/proof-html@v2.1.4
       with:
         directory: ./public
         enforce_https: false
+        # <a> without href is valid HTML5 (a placeholder link, e.g. a card
+        # title whose data has no URL).
+        allow_missing_href: true
+        # Check links to this site against the fresh build, not the live site,
+        # which still serves the previous deploy while this runs.
+        swap_urls: |
+          {"^https:\\/\\/www\\.andreamaiani\\.com\\/": "/"}
+        # These answer automated checkers with 403/405/999 although the links work.
+        ignore_url_re: |
+          ^https://doi\.org/
+          ^https://scholar\.google\.com/
+          ^https://www\.nyu\.edu
+          ^https://www\.linkedin\.com/
