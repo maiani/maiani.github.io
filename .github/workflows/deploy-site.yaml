@@ -22,9 +22,11 @@ jobs:
 
     # Fetch the Toha fork into ../toha so the `replace` directive in go.mod
     # resolves. This lets the site ship theme features ahead of an upstream
-    # release. Remove this step (and the replace) to build against upstream.
+    # release. `site` is the fork's integration branch: each fix/feature branch
+    # (off upstream main) is merged into it. Remove this step (and the replace)
+    # to build against upstream.
     - name: Fetch Toha fork
-      run: git clone --depth 1 --branch feat/seo-structured-data https://github.com/maiani/toha.git ../toha
+      run: git clone --depth 1 --branch site https://github.com/maiani/toha.git ../toha
 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v3
