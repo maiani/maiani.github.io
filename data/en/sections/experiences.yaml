@@ -38,16 +38,3 @@ experiences:
     end: Dec 2023
     # responsibilities:
     # - Design and develop XYZ tool for ABC task
-
-- company:
-    name: University of Copenhagen | Center for Quantum Devices
-    url: "https://qdev.nbi.ku.dk/"
-    location: Copenhagen    
-    logo: /images/site/ku_logo.svg
-    # overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
-  positions:
-  - designation: Postdoctoral associate
-    start: Apr 2023
-    end: Jul 2023
-    # responsibilities:
-    # - Implement and test xyz feature for abc tool.
