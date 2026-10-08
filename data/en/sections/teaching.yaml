@@ -2,7 +2,9 @@
 section:
   name: Teaching
   id: teaching
-  enable: true
+  # Hidden for now: TA duties are CV material. Re-enable once Andrea is
+  # responsible for a course.
+  enable: false
   weight: 7
   showOnNavbar: true
   # Can optionally hide the title in sections
