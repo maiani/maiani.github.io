@@ -19,6 +19,7 @@ This repository is Andrea Maiani's personal academic website, built with Hugo an
 - If a bug or SEO/accessibility improvement is generally useful for Toha, prefer opening or preparing an upstream theme fix.
 - Local overrides should only be temporary unblockers or clearly site-specific behavior. Document why they exist and remove them once the theme is fixed.
 - Site-specific content, metadata, publication data, author profile data, robots policy, and copy edits belong in this repo.
+- The theme is built from the `site` branch of the fork github.com/maiani/toha (`replace` in `go.mod`; CI clones it into `../toha`). To ship a theme fix: in `../toha`, branch off upstream `main`, commit, merge into `site`, push `site`. Keep each fix branch upstream-ready for a PR.
 
 ## SEO Policy
 
