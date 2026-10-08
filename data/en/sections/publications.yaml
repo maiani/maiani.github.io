@@ -21,6 +21,20 @@ buttons:
 
 publications:
 
+- title: Emergent gauge fields and linear dichroism in spin-textured altermagnets
+  authors:
+  - name: Andrea Maiani
+  categories: [altermagnetism]
+  paper:
+    summary: ''
+    url: ''
+    doi: "10.1103/phr7-1zy5"
+    arxiv: "2602.14950"
+  publishedIn:
+    date: 22 September 2026
+    name: Phys. Rev. Lett.
+    volume: "137"
+    articleNumber: "136703"
 - title: All-electrical dephasing-protected spin qubits in altermagnets
   authors:
   - name: José Carlos Abadillo-Uriel
@@ -35,17 +49,6 @@ publications:
     arxiv: "2606.26066"
   publishedIn:
     date: 24 June 2026
-    name: arXiv
-- title: Conductivity anisotropy and linear dichroism in spin-textured altermagnets
-  authors:
-  - name: Andrea Maiani
-  categories: [altermagnetism]
-  paper:
-    summary: ''
-    url: ''
-    arxiv: "2602.14950"
-  publishedIn:
-    date: 11 March 2026
     name: arXiv
 - title: Directional conductance of Andreev crystals in hybrid Josephson junction arrays
   authors:
