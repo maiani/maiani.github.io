@@ -65,10 +65,8 @@ params:
     inverted: /images/site/logo.svg
     favicon: /images/site/logo.png
 
-  # GitHub repo of your site
-  gitRepo: https://github.com/maiani/maiani.github.io
-  # Default branch of your Git repo
-  gitBranch: main
+  # gitRepo/gitBranch are deliberately unset: in Toha they only drive the "Improve this
+  # page" edit button on posts, and this site has a single author.
 
   # Configure the number of section title visible in the top navbar
   topNavbar:
