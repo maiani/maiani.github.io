@@ -1,0 +1,13 @@
+copyright: "© 2023-2026 Copyright."
+description: "Fisica teorica della materia condensata: nanoelettronica quantistica, strutture ibride superconduttrici, altermagnetismo e qubit superconduttori."
+customMenus:
+  - name: Sito completo in inglese
+    url: "https://www.andreamaiani.com/"
+  - name: QMineSweeper
+    url: "https://qminesweeper.andreamaiani.com"
+openGraph:
+  title: "Andrea Maiani, PhD"
+  type: "website"
+  description: "Ricerca in fisica della materia condensata e tecnologie quantistiche."
+  image: "images/author/andrea.jpg"
+  url: "https://www.andreamaiani.com/it/"

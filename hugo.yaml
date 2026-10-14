@@ -30,6 +30,12 @@ languages:
     direction: ltr
     label: English
     weight: 0
+  it:
+    disabled: false
+    locale: it-IT
+    direction: ltr
+    label: Italiano
+    weight: 1
 
 
 # Allow raw html in markdown file

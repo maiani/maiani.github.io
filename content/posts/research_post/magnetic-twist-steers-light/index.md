@@ -13,16 +13,19 @@ tags: ["altermagnets", "magnetism", "optics", "spintronics"]
 categories: ["research"]
 ---
 
-Put on a pair of polarized sunglasses, look at your phone, and slowly turn it.
-On most phones, at one angle the screen goes dark.
-The screen sends out polarized light: its electric field oscillates along a single direction.
-The lenses absorb light polarized along one direction and let the perpendicular one through,
-so when the screen's direction matches the one the lenses absorb, nothing gets through.
-That direction is fixed once and for all when the lenses are made.
+Put on a pair of polarized sunglasses, look at your phone, and slowly rotate the phone. 
+On many phones, the screen goes dark at a particular angle. 
+That happens because the screen emits polarized light: 
+its electric field oscillates in a particular direction. 
+The lenses let through light polarized along one direction 
+and absorb light polarized perpendicular to it. 
+When you rotate the phone so that the screen’s polarization 
+lines up with the direction the lenses absorb, 
+the light is blocked and the screen appears dark.
 
 Now imagine a material that behaves like those lenses, except that the direction it
-blocks depends on the colour of the light: one way for red, ninety degrees around for
-blue. And imagine that this behaviour is a fingerprint of a kind of magnetism that is
+blocks depends on the frequency of the light: one direction at low frequencies (red color), and
+ninety degrees around at higher frequencies (blue color). And imagine that this behaviour is a fingerprint of a kind of magnetism that is
 otherwise remarkably hard to see.
 That is, in short, the result of my new paper,
 [*Emergent Gauge Fields and Linear Dichroism in Spin-Textured Altermagnets*](https://doi.org/10.1103/phr7-1zy5),
@@ -136,7 +139,7 @@ couples precisely to that connection.
 
 How would you see any of this? With light.
 
-Polarization is part of everyday life, even if we rarely notice it.
+The same principle lets photographers cut glare from water.
 Photographers screw a polarizing filter onto their lenses: light reflected from water is
 partly polarized, so turning the filter cuts the glare and lets the camera see through the
 surface.

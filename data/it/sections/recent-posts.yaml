@@ -1,0 +1,7 @@
+section:
+  name: La ricerca raccontata
+  id: recent-posts
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  hideTitle: false

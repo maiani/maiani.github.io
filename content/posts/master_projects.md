@@ -12,6 +12,8 @@ categories: []
 ---
 
 On this page you can find a list of available Master thesis projects.
+**To undertake one of these projects, you must be enrolled at a Swedish university.**
+
 Please contact me if you are interested in working on one of these topics or if you have other ideas you 
 want to pursue together.
 
